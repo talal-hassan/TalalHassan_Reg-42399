@@ -1,0 +1,6 @@
+C:\Users\Talal\documents\visual studio 2015\Projects\StudentProfile\StudentProfile\obj\Debug\StudentProfile.csprojResolveAssemblyReference.cache
+C:\Users\Talal\documents\visual studio 2015\Projects\StudentProfile\StudentProfile\bin\Debug\StudentProfile.exe.config
+C:\Users\Talal\documents\visual studio 2015\Projects\StudentProfile\StudentProfile\bin\Debug\StudentProfile.exe
+C:\Users\Talal\documents\visual studio 2015\Projects\StudentProfile\StudentProfile\bin\Debug\StudentProfile.pdb
+C:\Users\Talal\documents\visual studio 2015\Projects\StudentProfile\StudentProfile\obj\Debug\StudentProfile.exe
+C:\Users\Talal\documents\visual studio 2015\Projects\StudentProfile\StudentProfile\obj\Debug\StudentProfile.pdb
