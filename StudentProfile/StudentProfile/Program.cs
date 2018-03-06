@@ -52,14 +52,14 @@ namespace StudentProfile
         static void Main(string[] args)
         {
             string path1;
-            path1 = "C:/Users/Talal/Documents/Visual Studio 2015/Projects/StudentProfile/StudentProfile/bin/Debug/StudentProfile.txt"; ;
+            path1 = args[0]; ;
           //  Console.Write(path1);
             Display display = new Display();
             display.MainScreen();
+
             
-
-
             string path = path1;
+
             //Login Screen
             ConsoleKeyInfo choice;
             choice = Console.ReadKey(true);
@@ -147,6 +147,13 @@ namespace StudentProfile
                         //  reader.WriteFile();
                     }
                     // Console.WriteLine("CONGRATULATIONS");
+
+                    else if(choice1.Key==ConsoleKey.V)
+                    {
+                        TTS tts = new TTS();
+                        tts.topStudent(path);
+
+                    }
                     else if (choice1.Key == ConsoleKey.E)
                         Environment.Exit(0);
                 }

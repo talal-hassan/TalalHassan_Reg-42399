@@ -85,12 +85,16 @@ namespace StudentProfile
             {
                 Console.Write("    " + studentId + "   |      " + studentName + "      |    " + studentDepartment + "    |    " + studentSemester + "   | " + "(P)/(A)");
                 Attendance();
-                Console.Write(studentAttendance); 
+                //Console.Write(studentAttendance); 
             }
             if (next != null)
+            {
                 next.MarkAttendance(a, b);
-            Console.WriteLine("\n\n\t\t  Updating Attendance");
-            SaveAttendance();
+                Console.WriteLine("\n\n\t\t  Updating Attendance");
+              
+                ShowAttendance();
+                
+            }
         }
         public void Attendance()
         {
@@ -98,29 +102,44 @@ namespace StudentProfile
             if (attendance.Key == ConsoleKey.P)
             {
                 studentAttendance = "1";
+                read.WriteFile(studentId, studentName, studentDepartment, studentSemester, studentCgpa, studentCampus, studentAttendance);
+
             }
             else if (attendance.Key == ConsoleKey.A)
+            {
                 studentAttendance = "2";
+                read.WriteFile(studentId, studentName, studentDepartment, studentSemester, studentCgpa, studentCampus, studentAttendance);
+            }
             else
             {
                 Attendance();
             }
 
             Console.WriteLine("\n");
+            //ShowAttendance();
         }
-        string path = "C:/Users/Talal/Documents/Visual Studio 2015/Projects/StudentProfile/StudentProfile/bin/Debug/StudentProfile.txt";
-
-        public void SaveAttendance()
+        // string path = "C:/Users/Talal/Documents/Visual Studio 2015/Projects/StudentProfile/StudentProfile/bin/Debug/StudentProfile.txt";
+        ReadFile read = new ReadFile();
+        public void ShowAttendance()
         {
-            string item = studentId + studentName + studentDepartment + studentSemester + studentCgpa + studentCampus + studentAttendance;
-            Console.WriteLine(item);
-           //File.WriteAllLines(path, ite);
-           // read.WriteFile(studentId,studentName,studentDepartment,studentSemester,studentCgpa,studentCampus,studentAttenda);
-           
-            if (next != null)
-                SaveAttendance();
-            Console.ReadKey();
+            //string item = studentId + studentName + studentDepartment + studentSemester + studentCgpa + studentCampus + studentAttendance;
+           // Console.WriteLine(item);
+            
+           // read.WriteFile(studentId,studentName,studentDepartment,studentSemester,studentCgpa,studentCampus,studentAttendance);
+            //File.WriteAllLines(path, ite);
+            // read.WriteFile(studentId,studentName,studentDepartment,studentSemester,studentCgpa,studentCampus,studentAttenda);
+
+            //if (next != null)
+            //{ 
+            //   // ShowAttendance();
+            //    Console.WriteLine("hy");
+            //    Console.ReadKey();
+            //}
+
+           // Console.ReadKey();
+
         }
+        
     }
 
 }

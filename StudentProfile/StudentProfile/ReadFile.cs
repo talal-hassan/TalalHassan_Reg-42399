@@ -11,10 +11,15 @@ namespace StudentProfile
     {
         public string studentID, name, department, semester, campus,attendance;
         public string cgpa;
+        public static string Path;
         Student profile = new Student();
-        public ReadFile(string path)
+        public ReadFile()
         {
 
+        }
+        public ReadFile(string path)
+        {
+            Path = path;
             StreamReader obj = new StreamReader(path);
             
 
@@ -98,9 +103,11 @@ namespace StudentProfile
             }
             profile.Traverse(search, choiceSearch);
         }
+        
+        
         public void WriteFile(string q, string w, string e, string r, string t, string y, string u)
         {
-            
+            StreamWriter save = new StreamWriter(Path, true);
             studentID = q;
             name = w;
             department = e;
@@ -110,13 +117,15 @@ namespace StudentProfile
             attendance = u;
             // Program o = new Program();
             // o.
-            string path = "C:/Users/Talal/Documents/Visual Studio 2015/Projects/StudentProfile/StudentProfile/bin/Debug/StudentProfile.txt";
+            // string path = "C:/Users/Talal/Documents/Visual Studio 2015/Projects/StudentProfile/StudentProfile/bin/Debug/StudentProfile.txt";
 
-            StreamWriter save = new StreamWriter(path);
-           
-            save.WriteLine(studentID + "," + name + "," + department + "," + semester + "," + cgpa + "," + campus + "," + attendance);
+
+            Console.WriteLine("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh");
+            
+            save.WriteLine("\n"+studentID + "," + name + "," + department + "," + semester + "," + cgpa + "," + campus + "," + attendance);
             save.AutoFlush = true;
             save.Close();
+            Console.ReadKey();
         }
     }
 }
