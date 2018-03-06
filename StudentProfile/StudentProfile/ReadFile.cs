@@ -11,7 +11,7 @@ namespace StudentProfile
     {
         public string studentID, name, department, semester, campus,attendance;
         public string cgpa;
-        public static string Path;
+        public string path;
         Student profile = new Student();
         public ReadFile()
         {
@@ -19,7 +19,7 @@ namespace StudentProfile
         }
         public ReadFile(string path)
         {
-            Path = path;
+            this.path = path;
             StreamReader obj = new StreamReader(path);
             
 
@@ -107,7 +107,7 @@ namespace StudentProfile
         
         public void WriteFile(string q, string w, string e, string r, string t, string y, string u)
         {
-            StreamWriter save = new StreamWriter(Path, true);
+            StreamWriter save = new StreamWriter(@"StudentProfile.txt", true);
             studentID = q;
             name = w;
             department = e;
@@ -115,13 +115,8 @@ namespace StudentProfile
             cgpa = t;
             campus = y;
             attendance = u;
-            // Program o = new Program();
-            // o.
             // string path = "C:/Users/Talal/Documents/Visual Studio 2015/Projects/StudentProfile/StudentProfile/bin/Debug/StudentProfile.txt";
 
-
-            Console.WriteLine("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh");
-            
             save.WriteLine("\n"+studentID + "," + name + "," + department + "," + semester + "," + cgpa + "," + campus + "," + attendance);
             save.AutoFlush = true;
             save.Close();
