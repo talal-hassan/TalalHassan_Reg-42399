@@ -1,0 +1,21 @@
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\bin\Debug\Student Profile.exe.config
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\bin\Debug\Student Profile.exe
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\bin\Debug\Student Profile.pdb
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student Profile.csprojResolveAssemblyReference.cache
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student_Profile.AttendanceMarkControl.resources
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student_Profile.AttendanceViewControl.resources
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student_Profile.Confirmation.resources
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student_Profile.DeleteControl.resources
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student_Profile.login_screen.resources
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student_Profile.HomeControl.resources
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student_Profile.Main.resources
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student_Profile.Properties.Resources.resources
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student_Profile.SearchControl.resources
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student_Profile.UserControl1.resources
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student_Profile.ViewAttendance.resources
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student Profile.csproj.GenerateResource.Cache
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student Profile.exe
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student Profile.pdb
+C:\Users\Talal\documents\visual studio 2015\Projects\Student Profile\Student Profile\obj\Debug\Student_Profile.Error_Save.resources
