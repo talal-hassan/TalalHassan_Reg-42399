@@ -1,0 +1,11 @@
+C:\Users\Talal\documents\visual studio 2015\Projects\Speech Recognition\Speech Recognition\bin\Debug\Speech Recognition.exe.config
+C:\Users\Talal\documents\visual studio 2015\Projects\Speech Recognition\Speech Recognition\bin\Debug\Speech Recognition.exe
+C:\Users\Talal\documents\visual studio 2015\Projects\Speech Recognition\Speech Recognition\bin\Debug\Speech Recognition.pdb
+C:\Users\Talal\documents\visual studio 2015\Projects\Speech Recognition\Speech Recognition\obj\Debug\Speech_Recognition.Form1.resources
+C:\Users\Talal\documents\visual studio 2015\Projects\Speech Recognition\Speech Recognition\obj\Debug\Speech_Recognition.Properties.Resources.resources
+C:\Users\Talal\documents\visual studio 2015\Projects\Speech Recognition\Speech Recognition\obj\Debug\Speech Recognition.csproj.GenerateResource.Cache
+C:\Users\Talal\documents\visual studio 2015\Projects\Speech Recognition\Speech Recognition\obj\Debug\Speech Recognition.exe
+C:\Users\Talal\documents\visual studio 2015\Projects\Speech Recognition\Speech Recognition\obj\Debug\Speech Recognition.pdb
+C:\Users\Talal\documents\visual studio 2015\Projects\Speech Recognition\Speech Recognition\obj\Debug\Speech Recognition.csprojResolveAssemblyReference.cache
+C:\Users\Talal\documents\visual studio 2015\Projects\Speech Recognition\Speech Recognition\obj\Debug\Speech_Recognition.InteractionScreen.resources
+C:\Users\Talal\documents\visual studio 2015\Projects\Speech Recognition\Speech Recognition\obj\Debug\Speech_Recognition.Web_Search.resources
