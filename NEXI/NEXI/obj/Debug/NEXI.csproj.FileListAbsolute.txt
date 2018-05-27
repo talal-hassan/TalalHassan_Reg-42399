@@ -1,0 +1,10 @@
+c:\users\talal\documents\visual studio 2015\Projects\NEXI\NEXI\bin\Debug\NEXI.exe.config
+c:\users\talal\documents\visual studio 2015\Projects\NEXI\NEXI\obj\Debug\NEXI.csprojResolveAssemblyReference.cache
+c:\users\talal\documents\visual studio 2015\Projects\NEXI\NEXI\obj\Debug\NEXI.NEXI.resources
+c:\users\talal\documents\visual studio 2015\Projects\NEXI\NEXI\obj\Debug\NEXI.Properties.Resources.resources
+c:\users\talal\documents\visual studio 2015\Projects\NEXI\NEXI\obj\Debug\NEXI.csproj.GenerateResource.Cache
+c:\users\talal\documents\visual studio 2015\Projects\NEXI\NEXI\bin\Debug\NEXI.exe
+c:\users\talal\documents\visual studio 2015\Projects\NEXI\NEXI\bin\Debug\NEXI.pdb
+c:\users\talal\documents\visual studio 2015\Projects\NEXI\NEXI\obj\Debug\NEXI.exe
+c:\users\talal\documents\visual studio 2015\Projects\NEXI\NEXI\obj\Debug\NEXI.pdb
+c:\users\talal\documents\visual studio 2015\Projects\NEXI\NEXI\obj\Debug\NEXI.WebSearch.resources
