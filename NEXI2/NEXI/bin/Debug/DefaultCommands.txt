@@ -1,0 +1,10 @@
+read
+read the result
+what are the results
+search
+pause
+stop
+close web search
+hide web search
+show web search
+show web search again

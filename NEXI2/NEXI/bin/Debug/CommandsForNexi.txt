@@ -1,0 +1,17 @@
+hi nexi
+search
+open word
+open microsoft word
+exit word
+open powerpoint
+exit powerpoint
+open chrome
+exit chrome
+open sticky note
+exit sticky note
+how are you
+what is the current time
+take a shot
+thank you
+lock computer
+close
